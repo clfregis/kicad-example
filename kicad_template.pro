@@ -1,4 +1,4 @@
-update=2020 May 30, Saturday 18:00:04
+update=2020 May 30, Saturday 19:19:09
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=/Library/Application Support/kicad/my-templates/Worksheets/schematic_template.kicad_wks
-LastNetListRead=
+LastNetListRead=kicad_template.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

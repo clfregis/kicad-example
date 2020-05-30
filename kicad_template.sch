@@ -20,20 +20,9 @@ P 8050 5650
 F 0 "R1" H 8050 5840 50  0000 C CNN
 F 1 "1K" H 8050 5749 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7975 5725 50  0001 C CNN
-F 3 "" H 7975 5725 50  0001 C CNN
+F 3 "/Datasheet/1K-Resistor.pdf" H 7975 5725 50  0001 C CNN
 	1    8050 5650
 	1    0    0    -1  
-$EndComp
-$Comp
-L Miscellaneous-Components:LED L1
-U 1 1 5ED38FD8
-P 8050 5350
-F 0 "L1" H 8050 5155 50  0000 C CNN
-F 1 "LED" H 8050 5246 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 8050 5420 50  0001 C CNN
-F 3 "" H 8050 5420 50  0001 C CNN
-	1    8050 5350
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7900 5650 7950 5650
@@ -80,7 +69,7 @@ P 8800 5500
 F 0 "J1" H 8570 5550 50  0000 R CNN
 F 1 "Jack-DC" H 8570 5459 50  0000 R CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8850 5460 50  0001 C CNN
-F 3 "~" H 8850 5460 50  0001 C CNN
+F 3 "/Datasheet/DC-Connector.pdf" H 8850 5460 50  0001 C CNN
 	1    8800 5500
 	-1   0    0    -1  
 $EndComp
@@ -92,4 +81,15 @@ Wire Wire Line
 	8500 5600 8500 5650
 Wire Wire Line
 	8300 5650 8500 5650
+$Comp
+L Miscellaneous-Components:LED L1
+U 1 1 5ED38FD8
+P 8050 5350
+F 0 "L1" H 8050 5155 50  0000 C CNN
+F 1 "RED LED" H 8050 5246 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8050 5420 50  0001 C CNN
+F 3 "/Datasheet/Red-LED.pdf" H 8050 5420 50  0001 C CNN
+	1    8050 5350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
