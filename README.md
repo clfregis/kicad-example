@@ -6,12 +6,16 @@ This is a very basic example of the design of PCB, which contains all files and 
 
 ## File structure
 ```c
-project_name
-  ↳bom           // interactive BOM
-  ↳datasheets    // data sheets for components used
-  ↳gerber        // final production files
-  ↳images        // SVG images and 3D board renders
-  ↳pdf           // schematics, board layouts, dimension drawings
+/kicad_template
+  ↳/bom                         // interactive BOM
+  ↳/datasheets                  // data sheets for components used
+  ↳/gerber                      // final production files
+  ↳/images                      // SVG images and 3D board renders
+  ↳/pdf                         // schematics, board layouts, dimension drawings
+  ↳kicad_template-cache.lib     // library automatically created by KiCAD
+  ↳kicad_template.kicad_pcb     // pcb file
+  ↳kicad_template.pro.          // project file
+  ↳kicad_template.sch           // schematic file
 ```
 _____________
 ## Steps in a new design
@@ -24,4 +28,4 @@ _____________
 
 _____________
 ## Generating Gerber files
- Please refer to this [tutoria](https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files) on JLCPCB website.
+ Please refer to this [tutorial](https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files) on JLCPCB website.
